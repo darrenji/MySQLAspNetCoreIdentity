@@ -1,0 +1,40 @@
+https://gldraphael.com/blog/getting-started-with-identity-in-asp-net-core/
+https://github.com/gldraphael/dotnet-identity-example
+
+https://imchenchao.com/blog/AspNetCoreMySql/
+
+https://damienbod.com/2016/08/26/asp-net-core-1-0-with-mysql-and-entity-framework-core/
+
+https://github.com/jasonsturges/mysql-dotnet-core
+
+==命令行
+
+dotnet new webapi --name Web
+dotnet new sln
+dotnet sln add Web/Web.csproj
+dotnet restore
+cd Web
+dotnet run
+
+==查看mysql的地址和端口
+select user()
+show variables;
+
+==安装包
+在Web下
+dotnet add package Pomelo.EntityFrameworkCore.MySql
+
+cd..
+dotnet restore
+
+==使用dotnet ef需要安装
+
+<ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+</ItemGroup>
+
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+
+http://localhost:52191/api/values

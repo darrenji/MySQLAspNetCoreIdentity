@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{D2FD6A2C-A468-4836-9E18-1412C628B789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Debug|x64.Build.0 = Debug|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Debug|x86.Build.0 = Debug|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Release|x64.ActiveCfg = Release|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Release|x64.Build.0 = Release|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Release|x86.ActiveCfg = Release|Any CPU
+		{D2FD6A2C-A468-4836-9E18-1412C628B789}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93347960-3229-45FC-B5C7-1AE14A04F3B4}
+	EndGlobalSection
+EndGlobal
